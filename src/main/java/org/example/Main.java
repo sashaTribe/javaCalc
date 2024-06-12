@@ -33,7 +33,7 @@ public class Main {
         String brand = scan.next();
 
         double areaOfWall = convertCm2ToM2(calcArea(width, height));
-
+        System.out.print("Hello");
         int coverage = 0;
         double amountOfPaintNeeded = 0;
         HashMap<Double, Integer> tinsAmount = new HashMap<Double,Integer>();
